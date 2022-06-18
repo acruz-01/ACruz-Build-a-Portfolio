@@ -1,0 +1,74 @@
+/* Set rules for background */
+.main-background{
+  background-image:url(/images/pexels-pixabay-326333.jpg);
+  background-size: 100%;
+  font-family: Arial;
+  color: white;
+}
+
+/* Set rules for h1 header */
+.main-header {
+  text-align: center;
+}
+
+/* Set rules for h2 header */
+.secondary-header {
+  text-align: center;
+}
+
+/* Set rules for image */
+.image-profile {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  }
+
+/* Set rules for About Me section */
+.about-me {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* Set rules for My Projects section */
+.my-projects {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* Set rules for Contact Me section */
+.contact-me {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* Set rules for email link behavior and link */
+.elink {
+  cursor: hover;
+}
+  
+#email a:link {
+  color: white;
+}
+
+#email a:hover {
+  color:lightblue;
+}
+
+
+/* @keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+#animate-area {
+  width: 200px;
+  height: 200px;
+  background-image: url(http://placekitten.com/400/200);
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 10s linear infinite alternate;
+} */
